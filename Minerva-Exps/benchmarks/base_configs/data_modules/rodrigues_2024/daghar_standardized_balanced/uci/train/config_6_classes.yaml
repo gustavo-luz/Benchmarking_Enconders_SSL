@@ -1,0 +1,9 @@
+class_path: minerva.data.data_modules.har_rodrigues_24.HARDataModuleCPC
+init_args:
+  data_path: "/workspaces/HIAAC-KR-Dev-Container/shared_data/rodrigues_2024_datasets/1-1/uci"
+  input_size: 6
+  window: 60
+  overlap: 30
+  batch_size: 64
+  use_train_as_val: False
+  use_val_with_train: True
