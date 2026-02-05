@@ -1,6 +1,6 @@
 class_path: minerva.data.data_modules.har_rodrigues_24.HARDataModuleCPC
 init_args:
-  data_path: "/workspaces/HIAAC-KR-Dev-Container/shared_data/combined_datasets/1-1/motion"
+  data_path: "/home/gustavo-luz/code/hiaac/paper_access_private_git/Benchmarking_Enconders_SSL/shared_data/combined_datasets/1-1/motion"
   input_size: 6
   window: 60
   overlap: 30

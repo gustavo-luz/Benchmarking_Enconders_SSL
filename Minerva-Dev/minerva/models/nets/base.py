@@ -233,9 +233,9 @@ class SimpleSupervisedModel(L.LightningModule):
         """
         x, y = batch
         y_hat = self.forward(x)
-        if step_name == 'val':
-            print(f"Validation step {batch_idx}: y_hat argmax: {y_hat.argmax(dim=1)}, y: {y}")
-            print(f" accuracy: {(y_hat.argmax(dim=1) == y).float().mean().item()}")
+        # if step_name == 'val':
+            # print(f"Validation step {batch_idx}: y_hat argmax: {y_hat.argmax(dim=1)}, y: {y}")
+            # print(f" accuracy: {(y_hat.argmax(dim=1) == y).float().mean().item()}")
 
         loss = self._loss_func(y_hat, y)
         self.log(

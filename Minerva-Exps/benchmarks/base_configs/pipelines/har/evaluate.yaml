@@ -44,7 +44,7 @@ classification_metrics:
       average: "macro"
       task: "multiclass"
   balanced_accuracy:
-    class_path: minerva.analysis.metrics.balanced_accuracy.BalancedAccuracy
+    class_path: torchmetrics.Accuracy
     init_args:
       num_classes: 6
       task: "multiclass"

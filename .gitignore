@@ -169,3 +169,9 @@ shared_runs
 Minerva-Exps/Abest_backbones/*
 
 .ckpt
+
+minerva_ssl_env/
+
+Minerva-Exps/benchmarks/experiments/tfc_resnetse5_run1/logs/*
+Minerva-Exps/benchmarks/experiments/docs/supervised/logs/*
+Minerva-Exps/benchmarks/experiments/docs/supervised/checkpoints/*

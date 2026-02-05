@@ -171,3 +171,4 @@ benchmarks/base_configs/data_modules/multimodal_df/daghar_standardized_balanced/
 benchmarks/test_exps/logs
 logs/
 
+benchmarks/experiments/tfc_resnetse5_run1/logs/*

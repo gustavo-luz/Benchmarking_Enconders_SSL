@@ -1,6 +1,12 @@
 # Benchmarking_Enconders_SSL
 Code regarding reproduction of the paper "Benchmarking Encoders and Self-Supervised Learning for Smartphone-Based Human Activity Recognition", submitted to IEEE Access
 
+
+chmod +x install_requirements.sh 
+./install_requirements.sh 
+
+
+
 # HIAAC-KR-DEV-CONTAINER
 
 This repository contains a general vscode development workspace setup for developing using `Minerva-Dev` and `Minerva-Exps`.  
